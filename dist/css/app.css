@@ -57,3 +57,20 @@ img {
   top: 20%;
   left: 20%;
 }
+
+:root {
+  --button-color: #5b2ca2;
+}
+
+button {
+  width: 10rem;
+  background-color: #5b2ca2;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  min-height: 3rem;
+}
+button:hover {
+  background-color: #f0edf5;
+  color: var(--button-color);
+}
