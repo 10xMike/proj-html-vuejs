@@ -1,0 +1,14 @@
+.calltoaction{
+    display: grid;
+    place-content: center;
+    vertical-align: middle;
+    position: relative;
+    img{
+      vertical-align: middle;
+    }
+    .actiontext{
+      position: absolute;
+      top: 20%;
+      left: 20%;
+    }
+  }
