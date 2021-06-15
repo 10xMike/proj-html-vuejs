@@ -66,7 +66,7 @@ button {
   width: 10rem;
   background-color: #5b2ca2;
   color: white;
-  border-radius: 1rem;
+  border-radius: 5px;
   border: none;
   min-height: 3rem;
 }
