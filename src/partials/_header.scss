@@ -5,23 +5,31 @@ nav {
 a {
   color: #5b2ca2;
 }
-.hero_image{
+.hero_image {
   display: grid;
   place-content: center;
 }
-img{
+img {
   width: 100%;
 }
-.jumbo{
+.jumbo {
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  img{
+  img {
     vertical-align: middle;
   }
-  .hero_text{
+  .hero_text {
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 30%;
+    left: 5%;
+    width: 20%;
+  }
+}
+.hero_text {
+  .h1,
+  h1 {
+    font-size: 3rem;
+    font-weight: 900;
   }
 }
