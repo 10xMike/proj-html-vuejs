@@ -8,3 +8,16 @@ a {
 img {
   width: 100%;
 }
+.jumbo{
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  img{
+    vertical-align: middle;
+  }
+  .hero_text{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+}

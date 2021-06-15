@@ -7,3 +7,30 @@
 body {
   min-width: 1080px;
 }
+
+nav {
+  background-color: #f5e9f3;
+  color: #5b2ca2;
+}
+
+a {
+  color: #5b2ca2;
+}
+
+img {
+  width: 100%;
+}
+
+.jumbo {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+.jumbo img {
+  vertical-align: middle;
+}
+.jumbo .hero_text {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
