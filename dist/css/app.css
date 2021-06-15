@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400&display=swap);
 /* IMPORT */
 * {
   box-sizing: border-box;
@@ -50,6 +51,12 @@ img {
   font-weight: 900;
 }
 
+.hero_text .h1, .hero_text h1 {
+  color: #5b2ca2;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
 .calltoaction {
   display: grid;
   place-content: center;
@@ -70,12 +77,13 @@ img {
 }
 
 button {
-  width: 10rem;
+  width: 14rem;
   background-color: #5b2ca2;
   color: white;
   border-radius: 5px;
   border: none;
   min-height: 3rem;
+  font-family: "Work Sans", sans-serif;
 }
 button:hover {
   background-color: #f0edf5;
@@ -86,4 +94,14 @@ button:hover {
   display: grid;
   place-content: center;
   background-color: #e9dedc;
+}
+
+.sliderbox {
+  display: grid;
+  place-content: center;
+}
+
+.organic_margins {
+  margin: 1rem;
+  padding: 1rem;
 }
