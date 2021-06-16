@@ -37,13 +37,13 @@ button {
   position: relative;
   img {
     vertical-align: middle;
-    filter: brightness(0.7);
+    filter: brightness(0.6);
   }
   .tellus_text {
     position: absolute;
-    top: 30%;
-    left: 5%;
-    width: 20%;
+    top: 10rem;
+    left: 10rem;
+    width: 30%;
   }
   .catalogue-one {
     position: absolute;
@@ -51,12 +51,34 @@ button {
     left: 250%;
     font-size: 10rem;
   }
+  .catalogue-one-subtitle {
+    position: absolute;
+    left: 130%;
+    right: -130%;
+    bottom: 30px;
+    color: white;
+  }
+}
+#tellusbtn {
+  color: white;
 }
 
-section{
+section {
   padding: 3rem;
 }
 
-small{
+small {
   text-transform: uppercase;
+}
+
+#actionbutton {
+  color: #5b2ca2;
+  background-color: white;
+  &:hover {
+    color: white;
+    background-color: var(--button-color);
+  }
+}
+#actionheading {
+  color: white;
 }

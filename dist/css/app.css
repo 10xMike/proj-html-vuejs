@@ -34,6 +34,15 @@ a:hover {
   padding-bottom: 10px;
 }
 
+#jumbobtn {
+  color: #5b2ca2;
+  background-color: white;
+}
+#jumbobtn:hover {
+  color: white;
+  background-color: #5b2ca2;
+}
+
 .hero_image {
   display: grid;
   place-content: center;
@@ -55,7 +64,7 @@ img {
   position: absolute;
   top: 30%;
   left: 5%;
-  width: 20%;
+  width: 25%;
 }
 
 .hero_text .h1,
@@ -72,8 +81,6 @@ img {
 }
 
 .calltoaction {
-  display: grid;
-  place-content: center;
   vertical-align: middle;
   position: relative;
 }
@@ -84,6 +91,7 @@ img {
   position: absolute;
   top: 20%;
   left: 20%;
+  width: 40%;
 }
 
 :root {
@@ -127,19 +135,30 @@ button:hover {
 }
 .tell_us img {
   vertical-align: middle;
-  filter: brightness(0.7);
+  filter: brightness(0.6);
 }
 .tell_us .tellus_text {
   position: absolute;
-  top: 30%;
-  left: 5%;
-  width: 20%;
+  top: 10rem;
+  left: 10rem;
+  width: 30%;
 }
 .tell_us .catalogue-one {
   position: absolute;
   top: -500%;
   left: 250%;
   font-size: 10rem;
+}
+.tell_us .catalogue-one-subtitle {
+  position: absolute;
+  left: 130%;
+  right: -130%;
+  bottom: 30px;
+  color: white;
+}
+
+#tellusbtn {
+  color: white;
 }
 
 section {
@@ -148,4 +167,17 @@ section {
 
 small {
   text-transform: uppercase;
+}
+
+#actionbutton {
+  color: #5b2ca2;
+  background-color: white;
+}
+#actionbutton:hover {
+  color: white;
+  background-color: var(--button-color);
+}
+
+#actionheading {
+  color: white;
 }
