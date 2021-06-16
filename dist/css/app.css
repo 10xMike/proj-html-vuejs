@@ -11,6 +11,11 @@ body {
   min-width: 1080px;
   font-family: "Source Serif Pro", serif;
 }
+body h2 {
+  color: #5b2ca2;
+  font-size: 3rem;
+  font-weight: 900;
+}
 
 nav {
   background-color: #f5e9f3;
@@ -113,6 +118,7 @@ button:hover {
 }
 .tell_us img {
   vertical-align: middle;
+  filter: brightness(0.7);
 }
 .tell_us .tellus_text {
   position: absolute;
@@ -125,4 +131,8 @@ button:hover {
   top: -500%;
   left: 250%;
   font-size: 10rem;
+}
+
+section {
+  padding: 3rem;
 }

@@ -37,6 +37,7 @@ button {
   position: relative;
   img {
     vertical-align: middle;
+    filter: brightness(0.7);
   }
   .tellus_text {
     position: absolute;
@@ -50,4 +51,8 @@ button {
     left: 250%;
     font-size: 10rem;
   }
+}
+
+section{
+  padding: 3rem;
 }
