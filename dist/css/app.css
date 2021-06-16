@@ -105,3 +105,24 @@ button:hover {
   margin: 1rem;
   padding: 1rem;
 }
+
+.tell_us {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+.tell_us img {
+  vertical-align: middle;
+}
+.tell_us .tellus_text {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  width: 20%;
+}
+.tell_us .catalogue-one {
+  position: absolute;
+  top: -500%;
+  left: 250%;
+  font-size: 10rem;
+}

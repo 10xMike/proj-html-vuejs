@@ -21,12 +21,33 @@ button {
   place-content: center;
   background-color: #e9dedc;
 }
-.sliderbox{
-    display: grid;
-    place-content: center;
+.sliderbox {
+  display: grid;
+  place-content: center;
 }
 
-.organic_margins{
-    margin: 1rem;
-    padding: 1rem;
+.organic_margins {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.tell_us {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  img {
+    vertical-align: middle;
+  }
+  .tellus_text {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 20%;
+  }
+  .catalogue-one {
+    position: absolute;
+    top: -500%;
+    left: 250%;
+    font-size: 10rem;
+  }
 }
