@@ -24,6 +24,14 @@ nav {
 
 a {
   color: #5b2ca2;
+  margin-left: 2rem;
+}
+
+a:hover {
+  color: #5b2ca2;
+  text-decoration: none;
+  border-bottom: 3px solid #5b2ca2;
+  padding-bottom: 10px;
 }
 
 .hero_image {
@@ -56,7 +64,8 @@ img {
   font-weight: 900;
 }
 
-.hero_text .h1, .hero_text h1 {
+.hero_text .h1,
+.hero_text h1 {
   color: #5b2ca2;
   font-size: 3rem;
   font-weight: 900;
@@ -91,7 +100,7 @@ button {
   font-family: "Work Sans", sans-serif;
 }
 button:hover {
-  background-color: #f0edf5;
+  background-color: white;
   color: var(--button-color);
 }
 
