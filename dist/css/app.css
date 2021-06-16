@@ -189,3 +189,16 @@ small {
 #halfwidth {
   width: 50%;
 }
+
+.azure,
+.cornsilk {
+  padding: 1rem;
+}
+
+.azure {
+  background-color: azure;
+}
+
+.cornsilk {
+  background-color: cornsilk;
+}
