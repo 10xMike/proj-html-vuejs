@@ -185,3 +185,7 @@ small {
 .col-6.box {
   padding: 5rem;
 }
+
+#halfwidth {
+  width: 50%;
+}
