@@ -96,6 +96,7 @@ img {
 
 footer {
   padding: 3rem;
+  min-height: 350px;
 }
 
 #footer_logo {
