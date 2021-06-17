@@ -94,6 +94,14 @@ img {
   width: 40%;
 }
 
+footer {
+  padding: 3rem;
+}
+
+#footer_logo {
+  width: 100px;
+}
+
 :root {
   --button-color: #5b2ca2;
 }
@@ -201,8 +209,4 @@ small {
 
 .cornsilk {
   background-color: cornsilk;
-}
-
-#footer_logo {
-  width: 100px;
 }
