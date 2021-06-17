@@ -105,21 +105,21 @@ small {
 .relative {
   position: relative;
   color: white;
-  h3#baking_heading{
+  h3#baking_heading {
     position: absolute;
     left: 5%;
     top: 5%;
     font-size: 4rem;
     font-weight: 900;
   }
-  span#baking_number{
+  span#baking_number {
     position: absolute;
     top: 5%;
     left: 90%;
     font-size: 4rem;
     font-weight: 600;
   }
-  #shortdescription{
+  #shortdescription {
     width: 50%;
     position: absolute;
     top: 75%;
@@ -127,15 +127,33 @@ small {
   }
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
-.opacity{
+.opacity {
   filter: brightness(0.5);
 }
 
-#section_white{
+#section_white {
   color: white;
 }
 
+#deliver_heading {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+}
+#deliver_number {
+  position: absolute;
+  top: 1rem;
+  left: 95%;
+  font-size: 3rem;
+}
+#deliver_description {
+  position: absolute;
+  top: 30rem;
+  left: 5rem;
+  width: 40%;
+  font-size: 1.25rem;
+}
