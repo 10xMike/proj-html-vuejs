@@ -49,7 +49,7 @@ var app = new Vue(_defineProperty({
     });
   }
 }, "mounted", function mounted() {
-  setInterval(this.next, 5000);
+  setInterval(this.next, 2000);
 }));
 
 /***/ }),

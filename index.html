@@ -69,8 +69,6 @@
 
                     <div class="col-4">
                         <img :src="images[counter +1 ]" alt="">
-                        <i @click="selectImage(index)" class="far fa-circle" :class="counter === index ? 'active' : '' "
-                            v-for="(img, index) in images" aria-hidden="true"></i>
                     </div>
                     <div class="next align-self-center" @click="next">
                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
@@ -167,8 +165,21 @@
             <!-- .startbaking -->
             <section class="startbaking">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6 relative">
                         <img src="./src/img/bakery-process-2.jpg" alt="">
+
+                        <h2 id="baking_heading">We Start Baking</h2>
+                        <span id="baking_number">02</span>
+                        <div id="shortdescription">
+                            <small>sweet & delicious</small>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati minima, iusto quia
+                                sit odio ut vel iure architecto quo sequi aspernatur possimus totam, velit error
+                                praesentium assumenda. Laudantium explicabo fuga amet temporibus excepturi. Doloremque!
+                            </p>
+                        </div>
+
+
+
                     </div>
                     <div class="col-6 box">
                         <small>don't just take our word for it</small>
@@ -288,7 +299,7 @@
         </main>
         <!-- /site_main -->
         <footer id="site_footer">
-            <div class="row d-flex">
+            <div class="row d-flex mt-2">
                 <div class="col-6">
                     <img id="footer_logo" src="./src/img/avada-bakery-logo-retina.png" alt="">
                 </div>
@@ -297,7 +308,7 @@
                 </div>
 
             </div>
-            <div class="row">
+            <div class="row mt-3">
 
                 <div class="col-6">
                     <a href="#">Shop</a>
@@ -313,7 +324,7 @@
                     <input type="email" placeholder="Enter email address*" name="" id=""> <button>Subscribe</button>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-6">
                     <small>&copy; Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered
                         by Wordpress</small>

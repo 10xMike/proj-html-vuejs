@@ -48,6 +48,6 @@ const app = new Vue({
       });
     },
     mounted() {
-      setInterval(this.next, 5000);
+      setInterval(this.next, 2000);
     },
   });

@@ -210,3 +210,23 @@ small {
 .cornsilk {
   background-color: cornsilk;
 }
+
+.relative {
+  position: relative;
+  color: white;
+}
+.relative h2#baking_heading {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+.relative span#baking_number {
+  position: absolute;
+  top: 5%;
+  left: 90%;
+}
+.relative #shortdescription {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
