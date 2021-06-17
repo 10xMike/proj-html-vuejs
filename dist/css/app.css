@@ -231,3 +231,7 @@ small {
   top: 50%;
   left: 5%;
 }
+
+body {
+  overflow-x: hidden;
+}
