@@ -47,9 +47,10 @@ button {
   }
   .catalogue-one {
     position: absolute;
-    top: -500%;
-    left: 250%;
+    top: -38rem;
+    left: 70rem;
     font-size: 10rem;
+    color: white;
   }
   .catalogue-one-subtitle {
     position: absolute;
@@ -104,19 +105,24 @@ small {
 .relative {
   position: relative;
   color: white;
-  h2#baking_heading{
+  h3#baking_heading{
     position: absolute;
     left: 5%;
     top: 5%;
+    font-size: 4rem;
+    font-weight: 900;
   }
   span#baking_number{
     position: absolute;
     top: 5%;
     left: 90%;
+    font-size: 4rem;
+    font-weight: 600;
   }
   #shortdescription{
+    width: 50%;
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 5%;
   }
 }
@@ -124,3 +130,12 @@ small {
 body{
   overflow-x: hidden;
 }
+
+.opacity{
+  filter: brightness(0.5);
+}
+
+#section_white{
+  color: white;
+}
+
